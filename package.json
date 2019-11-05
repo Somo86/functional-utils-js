@@ -1,0 +1,35 @@
+{
+  "name": "base-rollup-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rollup.config.js",
+  "scripts": {
+    "start:storybook": "start-storybook",
+    "start:serve": "parcel example/index.html",
+    "lint:ts": "tslint --fix -p tsconfig.json",
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.6.0",
+    "@storybook/react": "^5.2.1",
+    "@types/react": "^16.9.2",
+    "babel-loader": "^8.0.6",
+    "jest": "^24.9.0",
+    "react-dom": "^16.9.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  },
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "dependencies": {}
+}
