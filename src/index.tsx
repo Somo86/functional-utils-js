@@ -7,3 +7,4 @@ export { sumTo, subsTo } from "./math";
 export { default as pathOr } from "./pathOr";
 export { default as slice } from "./slice";
 export { default as switch } from "./switch";
+export { default as lens } from "./lens";
